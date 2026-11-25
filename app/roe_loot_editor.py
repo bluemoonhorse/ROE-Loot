@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import socket
 import threading
@@ -69,6 +70,37 @@ def html_document():
     if old_bundle not in page:
         raise RuntimeError("Could not locate the project export function in the bundled GUI.")
     page = page.replace(old_bundle, new_bundle, 1)
+
+    # Editable group names should become the visible labels once changed, while
+    # untouched imported names continue to use the bilingual display catalog.
+    old_locale = "function localeName(row,kind=section){let id=String(row.iID), dict=kind==='vehicles'?tr.vehicleGroups:tr.groups;let v=dict[id];return v?v[language==='ru'?1:0]:(row.strName||`Group ${id}`)}"
+    new_locale = "function localeName(row,kind=section){let id=String(row.iID),table=kind==='vehicles'?'vehicle_control':'control',original=(initial[table]||[]).find(x=>String(x.iID)===id);if(!original||String(row.strName||'')!==String(original.strName||''))return row.strName||`Group ${id}`;let dict=kind==='vehicles'?tr.vehicleGroups:tr.groups,v=dict[id];return v?v[language==='ru'?1:0]:(row.strName||`Group ${id}`)}"
+    if old_locale not in page:
+        raise RuntimeError("Could not locate the group-name display function.")
+    page = page.replace(old_locale, new_locale, 1)
+    page = page.replace("${language==='ru'?'Исходное имя':'Source name'}", "${language==='ru'?'Название группы':'Group name'}", 1)
+    page = page.replace("Control-table fields. The source name stays separate from its translated display label.", "Edit the group name and spawn settings. The group name is exported in strName.", 1)
+    page = page.replace("Поля таблицы управления лутом. Исходное китайское имя сохраняется отдельно от перевода.", "Изменяйте название группы и параметры появления. Название экспортируется в strName.", 1)
+
+    # Replace raw numeric extra-ID fields with catalog selectors and add/remove
+    # controls for each supported extra-item slot.
+    new_extra_editor = r'''function extraEditor(r,prefix,count){let slots=Array.from({length:count},(_,i)=>i+1).filter(n=>{let id=`i${prefix}ItemID${n}`,weight=`i${prefix}ItemWeight${n}`,packs=`i${prefix}ItemCount${n}`,stack=`i${prefix}ItemStackCount${n}`;return Boolean(r[id]||r[weight]||r[packs]||r[stack]||(r[`_editing_${prefix}`]||[]).includes(n))}),items=catalog().filter(x=>x._category!=='Vehicles');let slotHtml=slots.map(n=>{let idField=`i${prefix}ItemID${n}`,nameField=`str${prefix}ItemName${n}`,weightField=`i${prefix}ItemWeight${n}`,countField=`i${prefix}ItemCount${n}`,stackField=`i${prefix}ItemStackCount${n}`,selectedId=String(r[idField]||'');let options=items.map(x=>{let id=String(x.iItemID),label=`${itemName(x)} · #${id}`;return `<option value="${esc(id)}" ${id===selectedId?'selected':''}>${esc(label)}</option>`}).join('');if(selectedId&&!items.some(x=>String(x.iItemID)===selectedId))options=`<option value="${esc(selectedId)}" selected>Unknown item · #${esc(selectedId)}</option>`+options;return `<div class="extra-slot"><label class="label">${prefix==='Extra'?(language==='ru'?'Доп. предмет':'Loot extra'):(language==='ru'?'Модификация':'Attachment')} ${n}</label><select class="select" data-extra-id="${idField}" data-row="${esc(r.iID)}"><option value="">${language==='ru'?'Выберите предмет':'Select catalog item'}</option>${options}</select><div class="extra-fields"><input class="input" type="number" min="0" max="100" title="${language==='ru'?'Вес шанса %':'Chance weight %'}" placeholder="${language==='ru'?'Вес %':'Weight %'}" data-rowfield="${weightField}" data-row="${esc(r.iID)}" value="${esc(r[weightField]??'100')}"><input class="input" type="number" min="1" title="${language==='ru'?'Число выпадений':'Roll count'}" placeholder="${language==='ru'?'Выпадений':'Rolls'}" data-rowfield="${countField}" data-row="${esc(r.iID)}" value="${esc(r[countField]??'1')}"><input class="input" type="number" min="1" title="${language==='ru'?'Размер стопки':'Stack size'}" placeholder="${language==='ru'?'Стопка':'Stack'}" data-rowfield="${stackField}" data-row="${esc(r.iID)}" value="${esc(r[stackField]??'1')}"><button class="btn danger" data-action="remove-extra" data-row="${esc(r.iID)}" data-prefix="${prefix}" data-slot="${n}">${language==='ru'?'Удалить':'Remove'}</button></div></div>`}).join('');return `<div class="extra-grid">${slotHtml||`<div class="empty-extra">${language==='ru'?'Дополнительных предметов пока нет':'No extra items added yet'}</div>`}</div><button class="btn" data-action="add-extra" data-row="${esc(r.iID)}" data-prefix="${prefix}">＋ ${language==='ru'?'Добавить предмет':'Add item'}</button>`}'''
+    page, substitutions = re.subn(r"function extraEditor\(r,prefix,count\)\{.*?\}(?=\s*function rowHTML)", new_extra_editor + "\n", page, count=1, flags=re.S)
+    if substitutions != 1:
+        raise RuntimeError("Could not replace the extra-item editor.")
+    page = page.replace("<button class=\"icon-btn\" data-action=\"delete-item\" data-row=\"${esc(r.iID)}\" title=\"Remove\">×</button>", "<button class=\"btn danger\" data-action=\"delete-item\" data-row=\"${esc(r.iID)}\" title=\"Remove\">${language==='ru'?'Удалить':'Remove'}</button>", 1)
+    page = page.replace("</style>", ".extra-slot{min-width:240px;border:1px solid var(--line);background:#12191e;border-radius:9px;padding:9px}.extra-slot>.select{width:100%;margin:5px 0}.extra-fields{display:grid;grid-template-columns:repeat(4,minmax(65px,1fr));gap:5px}.extra-fields .btn{padding:5px 7px}.empty-extra{color:var(--muted);font-size:12px;padding:8px}.extra-grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}\n</style>", 1)
+
+    rowfield_listener = "m.querySelectorAll('[data-rowfield]').forEach(i=>i.onchange=()=>{let r=contents().find(x=>String(x.iID)===i.dataset.row);if(!r)return;r[i.dataset.rowfield]=i.value;setDirty();render()});"
+    extra_select_listener = "m.querySelectorAll('[data-extra-id]').forEach(i=>i.onchange=()=>{let r=contents().find(x=>String(x.iID)===i.dataset.row);if(!r)return;let id=String(i.value||''),field=i.dataset.extraId;r[field]=id;r[field.replace(/^i/,'str').replace('ID','Name')]=id?(names[id]?.en||catalog().find(x=>String(x.iItemID)===id)?.strItemName||`Item ${id}`):'';setDirty();render()});"
+    if rowfield_listener not in page:
+        raise RuntimeError("Could not locate the row field editor bindings.")
+    page = page.replace(rowfield_listener, rowfield_listener + extra_select_listener, 1)
+    add_item_listener = "m.querySelector('[data-action=\"add-item\"]')?.addEventListener('click',addItem);"
+    extra_button_listeners = "m.querySelectorAll('[data-action=\"add-extra\"]').forEach(b=>b.onclick=()=>{let r=contents().find(x=>String(x.iID)===b.dataset.row),prefix=b.dataset.prefix,count=prefix==='Extra'?7:4;if(!r)return;let n=Array.from({length:count},(_,i)=>i+1).find(i=>!r[`i${prefix}ItemID${i}`]&&!(r[`_editing_${prefix}`]||[]).includes(i));if(!n){alert(language==='ru'?'Достигнут предел слотов':'No more extra-item slots are available');return}r[`_${'editing_'+prefix}`]=[...(r[`_editing_${prefix}`]||[]),n];r[`i${prefix}ItemWeight${n}`]='100';r[`i${prefix}ItemCount${n}`]='1';r[`i${prefix}ItemStackCount${n}`]='1';setDirty();render()});m.querySelectorAll('[data-action=\"remove-extra\"]').forEach(b=>b.onclick=()=>{let r=contents().find(x=>String(x.iID)===b.dataset.row),prefix=b.dataset.prefix,n=Number(b.dataset.slot);if(!r)return;for(let key of [`i${prefix}ItemID${n}`,`str${prefix}ItemName${n}`,`i${prefix}ItemWeight${n}`,`i${prefix}ItemCount${n}`,`i${prefix}ItemStackCount${n}`])delete r[key];r[`_editing_${prefix}`]=(r[`_editing_${prefix}`]||[]).filter(i=>i!==n);setDirty();render()});"
+    if add_item_listener not in page:
+        raise RuntimeError("Could not locate the add-item button binding.")
+    page = page.replace(add_item_listener, add_item_listener + extra_button_listeners, 1)
     return page.encode("utf-8")
 
 
