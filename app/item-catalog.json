@@ -1,0 +1,1338 @@
+[
+  {
+    "id": "10101",
+    "name_en": "R700 sniper rifle",
+    "name_ru": "Снайперская винтовка R700",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10102",
+    "name_en": "Mosin–Nagant rifle",
+    "name_ru": "Винтовка Мосина",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10103",
+    "name_en": "Unidentified sniper rifle · experimental ID 10103",
+    "name_ru": "Unidentified sniper rifle · experimental ID 10103",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "10104",
+    "name_en": "G28 marksman rifle",
+    "name_ru": "Марксманская винтовка G28",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10105",
+    "name_en": "VKS .50 rifle",
+    "name_ru": "Винтовка VKS калибра .50",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10106",
+    "name_en": "Unidentified sniper rifle · experimental ID 10106",
+    "name_ru": "Unidentified sniper rifle · experimental ID 10106",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "10107",
+    "name_en": "MK12 marksman rifle",
+    "name_ru": "Марксманская винтовка MK12",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10108",
+    "name_en": "Unidentified sniper rifle · experimental ID 10108",
+    "name_ru": "Unidentified sniper rifle · experimental ID 10108",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "10109",
+    "name_en": "Unidentified sniper rifle · experimental ID 10109",
+    "name_ru": "Unidentified sniper rifle · experimental ID 10109",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "10110",
+    "name_en": "FAL rifle",
+    "name_ru": "Винтовка FAL",
+    "category": "Sniper rifles",
+    "category_order": 10,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10201",
+    "name_en": "M4A1 assault rifle",
+    "name_ru": "Штурмовая винтовка M4A1",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10202",
+    "name_en": "AK-47 assault rifle",
+    "name_ru": "Штурмовая винтовка AK-47",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10203",
+    "name_en": "AK-15 assault rifle",
+    "name_ru": "Штурмовая винтовка AK-15",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10204",
+    "name_en": "LVOA assault rifle",
+    "name_ru": "Штурмовая винтовка LVOA",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10205",
+    "name_en": "Groza assault rifle",
+    "name_ru": "Штурмовая винтовка Groza",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10206",
+    "name_en": "FAMAS assault rifle",
+    "name_ru": "Штурмовая винтовка FAMAS",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10207",
+    "name_en": "Unidentified assault rifle · experimental ID 10207",
+    "name_ru": "Unidentified assault rifle · experimental ID 10207",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Unassigned experimental AR ID; absent from supplied items.csv; do not assume AUG/SCAR-H mapping"
+  },
+  {
+    "id": "10208",
+    "name_en": "G36 assault rifle",
+    "name_ru": "Штурмовая винтовка G36",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10209",
+    "name_en": "Unidentified assault rifle · experimental ID 10209",
+    "name_ru": "Unidentified assault rifle · experimental ID 10209",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Unassigned experimental AR ID; absent from supplied items.csv; do not assume AUG/SCAR-H mapping"
+  },
+  {
+    "id": "10210",
+    "name_en": "Unidentified assault rifle · experimental ID 10210",
+    "name_ru": "Unidentified assault rifle · experimental ID 10210",
+    "category": "Assault rifles",
+    "category_order": 20,
+    "source_status": "Unassigned experimental AR ID; absent from supplied items.csv; do not assume AUG/SCAR-H mapping"
+  },
+  {
+    "id": "10301",
+    "name_en": "MP5 submachine gun",
+    "name_ru": "Пистолет-пулемёт MP5",
+    "category": "Submachine guns",
+    "category_order": 30,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10302",
+    "name_en": "Unidentified submachine gun · experimental ID 10302",
+    "name_ru": "Unidentified submachine gun · experimental ID 10302",
+    "category": "Submachine guns",
+    "category_order": 30,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "10303",
+    "name_en": "Vector submachine gun",
+    "name_ru": "Пистолет-пулемёт Vector",
+    "category": "Submachine guns",
+    "category_order": 30,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10304",
+    "name_en": "Unidentified submachine gun · experimental ID 10304",
+    "name_ru": "Unidentified submachine gun · experimental ID 10304",
+    "category": "Submachine guns",
+    "category_order": 30,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "10305",
+    "name_en": "MPX submachine gun",
+    "name_ru": "Пистолет-пулемёт MPX",
+    "category": "Submachine guns",
+    "category_order": 30,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10306",
+    "name_en": "Scorpion submachine gun",
+    "name_ru": "Пистолет-пулемёт Scorpion",
+    "category": "Submachine guns",
+    "category_order": 30,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "103004",
+    "name_en": "P90 submachine gun (hypothesis; verify ID)",
+    "name_ru": "Пистолет-пулемёт P90 (гипотеза; проверить ID)",
+    "category": "Submachine guns",
+    "category_order": 30,
+    "source_status": "P90 candidate per user note; ID not present in supplied CSV, verify"
+  },
+  {
+    "id": "10401",
+    "name_en": "R870 shotgun",
+    "name_ru": "Дробовик R870",
+    "category": "Shotguns",
+    "category_order": 40,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10402",
+    "name_en": "Citori shotgun",
+    "name_ru": "Дробовик Citori",
+    "category": "Shotguns",
+    "category_order": 40,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10403",
+    "name_en": "Fostech Origin-12 shotgun",
+    "name_ru": "Дробовик Fostech Origin-12",
+    "category": "Shotguns",
+    "category_order": 40,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10601",
+    "name_en": "PKM light machine gun",
+    "name_ru": "Ручной пулемёт PKM",
+    "category": "Machine guns and launchers",
+    "category_order": 50,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "10602",
+    "name_en": "Unidentified machine gun/launcher · possible MG4; ID unconfirmed",
+    "name_ru": "Неизвестный пулемёт/гранатомёт · возможный MG4; ID не подтверждён",
+    "category": "Machine guns and launchers",
+    "category_order": 50,
+    "source_status": "Absent from supplied CSV; one of 10602–10604 may be MG4, exact ID unverified"
+  },
+  {
+    "id": "10603",
+    "name_en": "Unidentified machine gun/launcher · possible MG4; ID unconfirmed",
+    "name_ru": "Неизвестный пулемёт/гранатомёт · возможный MG4; ID не подтверждён",
+    "category": "Machine guns and launchers",
+    "category_order": 50,
+    "source_status": "Absent from supplied CSV; one of 10602–10604 may be MG4, exact ID unverified"
+  },
+  {
+    "id": "10604",
+    "name_en": "Unidentified machine gun/launcher · possible MG4; ID unconfirmed",
+    "name_ru": "Неизвестный пулемёт/гранатомёт · возможный MG4; ID не подтверждён",
+    "category": "Machine guns and launchers",
+    "category_order": 50,
+    "source_status": "Absent from supplied CSV; one of 10602–10604 may be MG4, exact ID unverified"
+  },
+  {
+    "id": "10605",
+    "name_en": "Rocket launcher",
+    "name_ru": "Реактивный гранатомёт",
+    "category": "Machine guns and launchers",
+    "category_order": 50,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "20001",
+    "name_en": "Unassigned pistol · candidate Glock-17 or USP-45; mapping unknown",
+    "name_ru": "Пистолет-кандидат Glock-17 или USP-45; соответствие ID неизвестно",
+    "category": "Pistols",
+    "category_order": 60,
+    "source_status": "Pistol ID present only as a proposed slot; Glock-17 vs USP-45 mapping unknown"
+  },
+  {
+    "id": "20002",
+    "name_en": "Unassigned pistol · candidate Glock-17 or USP-45; mapping unknown",
+    "name_ru": "Пистолет-кандидат Glock-17 или USP-45; соответствие ID неизвестно",
+    "category": "Pistols",
+    "category_order": 60,
+    "source_status": "Pistol ID present only as a proposed slot; Glock-17 vs USP-45 mapping unknown"
+  },
+  {
+    "id": "20003",
+    "name_en": "Desert Eagle pistol (.50)",
+    "name_ru": "Пистолет Desert Eagle (.50)",
+    "category": "Pistols",
+    "category_order": 60,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "200101",
+    "name_en": "Level 1 helmet (inferred; verify)",
+    "name_ru": "Level 1 helmet (inferred; verify)",
+    "category": "Helmets",
+    "category_order": 70,
+    "source_status": "Inferred level-1 gear ID; absent from supplied items.csv; verify"
+  },
+  {
+    "id": "200102",
+    "name_en": "Level 2 helmet",
+    "name_ru": "Шлем 2-го уровня",
+    "category": "Helmets",
+    "category_order": 70,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "200103",
+    "name_en": "Level 3 helmet",
+    "name_ru": "Шлем 3-го уровня",
+    "category": "Helmets",
+    "category_order": 70,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "201001",
+    "name_en": "Level 1 body armor (inferred; verify)",
+    "name_ru": "Level 1 body armor (inferred; verify)",
+    "category": "Body armor",
+    "category_order": 80,
+    "source_status": "Inferred level-1 gear ID; absent from supplied items.csv; verify"
+  },
+  {
+    "id": "201002",
+    "name_en": "Level 2 body armor",
+    "name_ru": "Бронежилет 2-го уровня",
+    "category": "Body armor",
+    "category_order": 80,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "201003",
+    "name_en": "Level 3 body armor",
+    "name_ru": "Бронежилет 3-го уровня",
+    "category": "Body armor",
+    "category_order": 80,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "30001",
+    "name_en": "5.56 mm ammunition",
+    "name_ru": "Патроны 5,56 мм",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "30002",
+    "name_en": "7.62 mm ammunition",
+    "name_ru": "Патроны 7,62 мм",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "30003",
+    "name_en": "9 mm ammunition",
+    "name_ru": "Патроны 9 мм",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "30004",
+    "name_en": "12-gauge shells",
+    "name_ru": "Патроны 12-го калибра",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "30005",
+    "name_en": "5.7×28 mm ammunition (hypothesis; verify)",
+    "name_ru": "Патроны 5,7×28 мм (гипотеза; проверить)",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": "5.7×28 mm ammunition hypothesis; absent from supplied CSV, verify"
+  },
+  {
+    "id": "30006",
+    "name_en": ".50-caliber ammunition pack (10 rounds)",
+    "name_ru": ".50-caliber ammunition pack (10 rounds)",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "30007",
+    "name_en": ".45-caliber ammunition candidate (hypothesis; verify)",
+    "name_ru": "Возможный кандидат на патроны .45 калибра; ID неизвестен",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": ".45-caliber ammunition candidate; exact ID/name unknown"
+  },
+  {
+    "id": "30008",
+    "name_en": ".45-caliber ammunition candidate (hypothesis; verify)",
+    "name_ru": "Возможный кандидат на патроны .45 калибра; ID неизвестен",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": ".45-caliber ammunition candidate; exact ID/name unknown"
+  },
+  {
+    "id": "30009",
+    "name_en": "RPG-7 rocket-propelled grenade round",
+    "name_ru": "Выстрел РПГ-7",
+    "category": "Ammunition and ordnance",
+    "category_order": 90,
+    "source_status": "RPG-7 round hypothesis; CSV source name 火箭筒 is ambiguous, verify"
+  },
+  {
+    "id": "40101",
+    "name_en": "Sniper-rifle suppressor",
+    "name_ru": "Глушитель для снайперской винтовки",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40102",
+    "name_en": "Unidentified muzzle/barrel attachment · experimental ID 40102",
+    "name_ru": "Unidentified muzzle/barrel attachment · experimental ID 40102",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "40103",
+    "name_en": "Rifle suppressor",
+    "name_ru": "Глушитель для винтовки",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40104",
+    "name_en": "Rifle compensator",
+    "name_ru": "Компенсатор для винтовки",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40105",
+    "name_en": "SMG suppressor",
+    "name_ru": "Глушитель для ПП",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40106",
+    "name_en": "SMG compensator",
+    "name_ru": "Компенсатор для ПП",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40107",
+    "name_en": "Shotgun choke",
+    "name_ru": "Дульное сужение для дробовика",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40108",
+    "name_en": "SMG flash hider",
+    "name_ru": "Пламегаситель для ПП",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40109",
+    "name_en": "Sniper-rifle flash hider",
+    "name_ru": "Пламегаситель для снайперской винтовки",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40110",
+    "name_en": "Rifle flash hider",
+    "name_ru": "Пламегаситель для винтовки",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40111",
+    "name_en": "Sniper-rifle compensator",
+    "name_ru": "Компенсатор для снайперской винтовки",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40112",
+    "name_en": "Extended barrel",
+    "name_ru": "Удлинённый ствол",
+    "category": "Muzzle and barrel attachments",
+    "category_order": 100,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40201",
+    "name_en": "Angled foregrip",
+    "name_ru": "Угловая рукоятка",
+    "category": "Foregrips",
+    "category_order": 110,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40202",
+    "name_en": "Vertical foregrip",
+    "name_ru": "Вертикальная рукоятка",
+    "category": "Foregrips",
+    "category_order": 110,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40301",
+    "name_en": "Unidentified optic · experimental ID 40301",
+    "name_ru": "Unidentified optic · experimental ID 40301",
+    "category": "Optics",
+    "category_order": 120,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "40302",
+    "name_en": "8× scope",
+    "name_ru": "Прицел 8×",
+    "category": "Optics",
+    "category_order": 120,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40303",
+    "name_en": "4× scope",
+    "name_ru": "Прицел 4×",
+    "category": "Optics",
+    "category_order": 120,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40304",
+    "name_en": "2× scope",
+    "name_ru": "Прицел 2×",
+    "category": "Optics",
+    "category_order": 120,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40305",
+    "name_en": "Red-dot sight",
+    "name_ru": "Коллиматорный прицел",
+    "category": "Optics",
+    "category_order": 120,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40306",
+    "name_en": "Holographic sight",
+    "name_ru": "Голографический прицел",
+    "category": "Optics",
+    "category_order": 120,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40401",
+    "name_en": "Sniper-rifle extended magazine",
+    "name_ru": "Увеличенный магазин для снайперской винтовки",
+    "category": "Magazines",
+    "category_order": 130,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40402",
+    "name_en": "Unidentified magazine · experimental ID 40402",
+    "name_ru": "Unidentified magazine · experimental ID 40402",
+    "category": "Magazines",
+    "category_order": 130,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "40403",
+    "name_en": "Rifle extended magazine",
+    "name_ru": "Увеличенный магазин для винтовки",
+    "category": "Magazines",
+    "category_order": 130,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40404",
+    "name_en": "Unidentified magazine · experimental ID 40404",
+    "name_ru": "Unidentified magazine · experimental ID 40404",
+    "category": "Magazines",
+    "category_order": 130,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "40405",
+    "name_en": "SMG extended magazine",
+    "name_ru": "Увеличенный магазин для ПП",
+    "category": "Magazines",
+    "category_order": 130,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "40501",
+    "name_en": "Unidentified stock · experimental ID 40501",
+    "name_ru": "Unidentified stock · experimental ID 40501",
+    "category": "Stocks",
+    "category_order": 140,
+    "source_status": "Experimental placeholder; absent from supplied items.csv"
+  },
+  {
+    "id": "40502",
+    "name_en": "Tactical stock (M4/LVOA)",
+    "name_ru": "Тактический приклад (M4/LVOA)",
+    "category": "Stocks",
+    "category_order": 140,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "50001",
+    "name_en": "Frag grenade",
+    "name_ru": "Осколочная граната",
+    "category": "Grenades",
+    "category_order": 150,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "50002",
+    "name_en": "Smoke grenade",
+    "name_ru": "Дымовая граната",
+    "category": "Grenades",
+    "category_order": 150,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "50003",
+    "name_en": "Flash grenade",
+    "name_ru": "Светошумовая граната",
+    "category": "Grenades",
+    "category_order": 150,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "70001",
+    "name_en": "Bandage",
+    "name_ru": "Бинт",
+    "category": "Healing items",
+    "category_order": 160,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "70002",
+    "name_en": "First-aid kit",
+    "name_ru": "Аптечка",
+    "category": "Healing items",
+    "category_order": 160,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "70003",
+    "name_en": "Medical kit",
+    "name_ru": "Медицинский набор",
+    "category": "Healing items",
+    "category_order": 160,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90101",
+    "name_en": "Sheriff note · 01",
+    "name_ru": "Записка шерифа · 01",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90102",
+    "name_en": "Sheriff note · 02",
+    "name_ru": "Записка шерифа · 02",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90103",
+    "name_en": "Sheriff note · 03",
+    "name_ru": "Записка шерифа · 03",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90104",
+    "name_en": "Sheriff note · 04",
+    "name_ru": "Записка шерифа · 04",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90105",
+    "name_en": "Sheriff note · 05",
+    "name_ru": "Записка шерифа · 05",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90106",
+    "name_en": "Sheriff note · 06",
+    "name_ru": "Записка шерифа · 06",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90107",
+    "name_en": "Sheriff note · 07",
+    "name_ru": "Записка шерифа · 07",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90108",
+    "name_en": "Sheriff note · 08",
+    "name_ru": "Записка шерифа · 08",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90109",
+    "name_en": "Sheriff note · 09",
+    "name_ru": "Записка шерифа · 09",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90110",
+    "name_en": "Sheriff note · 10",
+    "name_ru": "Записка шерифа · 10",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90111",
+    "name_en": "Sheriff note · 11",
+    "name_ru": "Записка шерифа · 11",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90112",
+    "name_en": "Sheriff note · 12",
+    "name_ru": "Записка шерифа · 12",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90113",
+    "name_en": "Sheriff note · 13",
+    "name_ru": "Записка шерифа · 13",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90114",
+    "name_en": "Sheriff note · 14",
+    "name_ru": "Записка шерифа · 14",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90201",
+    "name_en": "Newspaper · 01",
+    "name_ru": "Газета · 01",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90202",
+    "name_en": "Newspaper · 02",
+    "name_ru": "Газета · 02",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90203",
+    "name_en": "Newspaper · 03",
+    "name_ru": "Газета · 03",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90204",
+    "name_en": "Newspaper · 04",
+    "name_ru": "Газета · 04",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90205",
+    "name_en": "Newspaper · 05",
+    "name_ru": "Газета · 05",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90206",
+    "name_en": "Newspaper · 06",
+    "name_ru": "Газета · 06",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90207",
+    "name_en": "Newspaper · 07",
+    "name_ru": "Газета · 07",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90208",
+    "name_en": "Newspaper · 08",
+    "name_ru": "Газета · 08",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90209",
+    "name_en": "Newspaper · 09",
+    "name_ru": "Газета · 09",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90210",
+    "name_en": "Newspaper · 10",
+    "name_ru": "Газета · 10",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90211",
+    "name_en": "Newspaper · 11",
+    "name_ru": "Газета · 11",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90212",
+    "name_en": "Newspaper · 12",
+    "name_ru": "Газета · 12",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90213",
+    "name_en": "Newspaper · 13",
+    "name_ru": "Газета · 13",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90214",
+    "name_en": "Newspaper · 14",
+    "name_ru": "Газета · 14",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90215",
+    "name_en": "Newspaper · 15",
+    "name_ru": "Газета · 15",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90216",
+    "name_en": "Newspaper · 16",
+    "name_ru": "Газета · 16",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90217",
+    "name_en": "Newspaper · 17",
+    "name_ru": "Газета · 17",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90218",
+    "name_en": "Newspaper · 18",
+    "name_ru": "Газета · 18",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90219",
+    "name_en": "Newspaper · 19",
+    "name_ru": "Газета · 19",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90220",
+    "name_en": "Newspaper · 20",
+    "name_ru": "Газета · 20",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90301",
+    "name_en": "Diary fragment · 01",
+    "name_ru": "Фрагмент дневника · 01",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90302",
+    "name_en": "Diary fragment · 02",
+    "name_ru": "Фрагмент дневника · 02",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90303",
+    "name_en": "Diary fragment · 03",
+    "name_ru": "Фрагмент дневника · 03",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90304",
+    "name_en": "Diary fragment · 04",
+    "name_ru": "Фрагмент дневника · 04",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90305",
+    "name_en": "Diary fragment · 05",
+    "name_ru": "Фрагмент дневника · 05",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90306",
+    "name_en": "Diary fragment · 06",
+    "name_ru": "Фрагмент дневника · 06",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90307",
+    "name_en": "Diary fragment · 07",
+    "name_ru": "Фрагмент дневника · 07",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90308",
+    "name_en": "Diary fragment · 08",
+    "name_ru": "Фрагмент дневника · 08",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90309",
+    "name_en": "Diary fragment · 09",
+    "name_ru": "Фрагмент дневника · 09",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90310",
+    "name_en": "Diary fragment · 10",
+    "name_ru": "Фрагмент дневника · 10",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90311",
+    "name_en": "Diary fragment · 11",
+    "name_ru": "Фрагмент дневника · 11",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90312",
+    "name_en": "Diary fragment · 12",
+    "name_ru": "Фрагмент дневника · 12",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90313",
+    "name_en": "Diary fragment · 13",
+    "name_ru": "Фрагмент дневника · 13",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90314",
+    "name_en": "Diary fragment · 14",
+    "name_ru": "Фрагмент дневника · 14",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90315",
+    "name_en": "Diary fragment · 15",
+    "name_ru": "Фрагмент дневника · 15",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90316",
+    "name_en": "Diary fragment · 16",
+    "name_ru": "Фрагмент дневника · 16",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90317",
+    "name_en": "Diary fragment · 17",
+    "name_ru": "Фрагмент дневника · 17",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90318",
+    "name_en": "Diary fragment · 18",
+    "name_ru": "Фрагмент дневника · 18",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90319",
+    "name_en": "Diary fragment · 19",
+    "name_ru": "Фрагмент дневника · 19",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90320",
+    "name_en": "Diary fragment · 20",
+    "name_ru": "Фрагмент дневника · 20",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90321",
+    "name_en": "Diary fragment · 21",
+    "name_ru": "Фрагмент дневника · 21",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90322",
+    "name_en": "Diary fragment · 22",
+    "name_ru": "Фрагмент дневника · 22",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90323",
+    "name_en": "Diary fragment · 23",
+    "name_ru": "Фрагмент дневника · 23",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90324",
+    "name_en": "Diary fragment · 24",
+    "name_ru": "Фрагмент дневника · 24",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90325",
+    "name_en": "Diary fragment · 25",
+    "name_ru": "Фрагмент дневника · 25",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90401",
+    "name_en": "Brochure · 01",
+    "name_ru": "Брошюра · 01",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90402",
+    "name_en": "Brochure · 02",
+    "name_ru": "Брошюра · 02",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90403",
+    "name_en": "Brochure · 03",
+    "name_ru": "Брошюра · 03",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90404",
+    "name_en": "Brochure · 04",
+    "name_ru": "Брошюра · 04",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90405",
+    "name_en": "Brochure · 05",
+    "name_ru": "Брошюра · 05",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90901",
+    "name_en": "Puzzle clue · stage 1",
+    "name_ru": "Puzzle clue · stage 1",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90902",
+    "name_en": "Puzzle clue · stage 2",
+    "name_ru": "Puzzle clue · stage 2",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90903",
+    "name_en": "Puzzle clue · stage 3",
+    "name_ru": "Puzzle clue · stage 3",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90904",
+    "name_en": "Puzzle clue · stage 4",
+    "name_ru": "Puzzle clue · stage 4",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90905",
+    "name_en": "Puzzle clue · stage 5",
+    "name_ru": "Puzzle clue · stage 5",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90906",
+    "name_en": "Puzzle clue · stage 6",
+    "name_ru": "Puzzle clue · stage 6",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90907",
+    "name_en": "Puzzle clue · stage 7",
+    "name_ru": "Puzzle clue · stage 7",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "90999",
+    "name_en": "Puzzle clue · dummy",
+    "name_ru": "Подсказка к загадке · тестовая",
+    "category": "Documents and event items",
+    "category_order": 170,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "101",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "102",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "105",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "107",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "109",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "110",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "114",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "115",
+    "name_en": "Vehicle",
+    "name_ru": "Vehicle",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  },
+  {
+    "id": "203",
+    "name_en": "Boat",
+    "name_ru": "Boat",
+    "category": "Vehicles",
+    "category_order": 180,
+    "source_status": "Present in supplied items.csv"
+  }
+]

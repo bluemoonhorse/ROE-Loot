@@ -1,0 +1,1 @@
+The source archive contains the original loot CSV/XML/JSON exports, scripts, source manifest, and supplied readmes copied from `C:\Users\Luna\Desktop\ROE LOOT`. It is provided for provenance and reference; the editor itself runs from `../app/`.
